@@ -1,9 +1,11 @@
-# Respaldo V23.1 — 20 misiones (PENDIENTE DE CARGA)
+# Estado de los respaldos — El Coach contra el Fin del Mundo
 
-Estado: **NO COMPLETO**. Esta rama conserva la base histórica y está preparada para recibir el HTML V23.1, pero el archivo jugable aún NO se ha cargado.
+- **V23.2 (20 misiones): RESPALDO COMPLETO Y VERIFICADO.** Archivo HTML jugable en `releases/v23.2/Coach_20_Misiones_V23_2_Estabilizacion.html`.
+- Tamaño: 4.700.641 bytes.
+- SHA-256: `4cfbb274eda0a4d71da456b924b56354579299ee2252fbb521f5cd8671bd3a4e`.
+- 14 fragmentos recuperables y herramienta `releases/v23.2/restore.py` conservados como segunda vía de recuperación.
+- La verificación automática de reconstrucción finalizó correctamente en GitHub Actions.
+- **V23.1:** el respaldo histórico original de esta rama se había iniciado, pero se priorizó respaldar la V23.2 de estabilización más reciente. La V23.1 no se incorporó íntegra a esta rama.
+- **La rama main permanece intacta.** Este respaldo no representa aprobación para Google Play ni prueba Android.
 
-Archivo a subir en esta rama: `releases/v23.1/El_Coach_Contra_El_Fin_Del_Mundo_V23_1_MISION_20_GRAN_FINAL_BETA.html`
-
-SHA-256 esperado del HTML: `0f33271f9b16e42da980b111967794d27794ea5b695789abb89061d452652196`
-
-Tamaño: 4 700 597 bytes. Versión beta de 20 misiones, no certificada para Google Play. No reemplazar main hasta pasar pruebas completas. Se recomienda descargar el respaldo maestro independiente y conservarlo fuera de GitHub.
+Abrir `releases/v23.2/README.md` para instrucciones.
