@@ -1,0 +1,30 @@
+# Android Studio local state and build artifacts
+.gradle/
+.idea/
+**/build/
+local.properties
+*.iml
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing credentials and secret configuration — NEVER commit
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+**/keystore.properties
+**/key.properties
+**/signing.properties
+.env
+.env.*
+*.secrets
+*.secret
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
